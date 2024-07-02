@@ -1,0 +1,17 @@
+{
+  "name": "sass-starter-template",
+  "version": "1.0.0",
+  "description": "Starter template for bootstrap websites",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Sana Tameem",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  }
+}
