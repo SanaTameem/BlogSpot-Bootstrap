@@ -44,5 +44,8 @@ $spacers: (
 $line-height-base: 1.7;
 $headings-margin-bottom: $spacer * 1;
 
+$enable-negative-margins: true;
+
+$paragraph-margin-bottom: 0;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
